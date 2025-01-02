@@ -1,0 +1,320 @@
+{
+    "Fiorentina": {
+        "prezzo": 35.0,
+        "ingredienti": [
+            "bistecca di manzo",
+            "sale",
+            "pepe",
+            "olio d'oliva"
+        ]
+    },
+    "Filetto di Manzo": {
+        "prezzo": 28.0,
+        "ingredienti": [
+            "filetto di manzo",
+            "sale",
+            "pepe",
+            "burro"
+        ]
+    },
+    "Costine di Maiale": {
+        "prezzo": 22.0,
+        "ingredienti": [
+            "costine di maiale",
+            "salsa barbecue",
+            "sale",
+            "pepe"
+        ]
+    },
+    "Pollo alla Griglia": {
+        "prezzo": 18.0,
+        "ingredienti": [
+            "petto di pollo",
+            "olio d'oliva",
+            "sale",
+            "pepe",
+            "rosmarino"
+        ]
+    },
+    "Arrosto di Vitello": {
+        "prezzo": 30.0,
+        "ingredienti": [
+            "spalla di vitello",
+            "sale",
+            "pepe",
+            "vino bianco",
+            "aglio"
+        ]
+    },
+    "Salsiccia alla Brace": {
+        "prezzo": 15.0,
+        "ingredienti": [
+            "salsiccia di maiale",
+            "sale",
+            "pepe",
+            "finocchio"
+        ]
+    },
+    "Spezzatino di Manzo": {
+        "prezzo": 25.0,
+        "ingredienti": [
+            "manzo",
+            "carote",
+            "cipolla",
+            "vino rosso",
+            "brodo"
+        ]
+    },
+    "Pollo alla Cacciatora ": {
+        "prezzo": 20.0,
+        "ingredienti": [
+            "pollo",
+            "pomodori",
+            "olive",
+            "cipolla",
+            "vino bianco"
+        ]
+    },
+    "Hamburger di Manzo": {
+        "prezzo": 17.0,
+        "ingredienti": [
+            "carne macinata di manzo",
+            "pane per hamburger",
+            "lattuga",
+            "pomodoro",
+            "formaggio"
+        ]
+    },
+    "Patate al Forno": {
+        "prezzo": 5.0,
+        "ingredienti": [
+            "patate",
+            "olio d'oliva",
+            "rosmarino",
+            "sale"
+        ]
+    },
+    "Insalata Mista": {
+        "prezzo": 6.0,
+        "ingredienti": [
+            "lattuga",
+            "pomodori",
+            "cetrioli",
+            "olio d'oliva",
+            "aceto"
+        ]
+    },
+    "Verdure Grigliate": {
+        "prezzo": 7.0,
+        "ingredienti": [
+            "zucchine",
+            "melanzane",
+            "peperoni",
+            "olio d'oliva",
+            "sale"
+        ]
+    },
+    "Carote Marinate": {
+        "prezzo": 4.5,
+        "ingredienti": [
+            "carote",
+            "aceto balsamico",
+            "olio d'oliva",
+            "aglio",
+            "prezzemolo"
+        ]
+    },
+    "Chips di Cavolo Riccio": {
+        "prezzo": 4.0,
+        "ingredienti": [
+            "cavolo riccio",
+            "olio d'oliva",
+            "sale"
+        ]
+    },
+    "Fagiolini Saltati": {
+        "prezzo": 6.5,
+        "ingredienti": [
+            "fagiolini",
+            "aglio",
+            "olio d'oliva",
+            "sale"
+        ]
+    },
+    "Zucchine Grigliate": {
+        "prezzo": 5.5,
+        "ingredienti": [
+            "zucchine",
+            "olio d'oliva",
+            "sale",
+            "pepe"
+        ]
+    },
+    "Olive Miste Condite": {
+        "prezzo": 5.0,
+        "ingredienti": [
+            "olive verdi",
+            "olive nere",
+            "olio d'oliva",
+            "peperoncino",
+            "aglio",
+            "prezzemolo"
+        ]
+    },
+    "Carciofi alla Romana": {
+        "prezzo": 8.0,
+        "ingredienti": [
+            "carciofi",
+            "aglio",
+            "prezzemolo",
+            "olio d'oliva"
+        ]
+    },
+    "Fetta di Tiramisù": {
+        "prezzo": 6.0,
+        "ingredienti": [
+            "mascarpone",
+            "caffè",
+            "savoiardi",
+            "cacao",
+            "zucchero"
+        ]
+    },
+    "Panna Cotta": {
+        "prezzo": 5.5,
+        "ingredienti": [
+            "panna",
+            "zucchero",
+            "gelatina",
+            "vaniglia"
+        ]
+    },
+    "Cheesecake": {
+        "prezzo": 7.0,
+        "ingredienti": [
+            "formaggio cremoso",
+            "biscotti",
+            "burro",
+            "zucchero",
+            "uova"
+        ]
+    },
+    "Fetta di Torta di Mele": {
+        "prezzo": 4.5,
+        "ingredienti": [
+            "mele",
+            "farina",
+            "zucchero",
+            "uova",
+            "burro"
+        ]
+    },
+    "Fetta di Pastiera": {
+        "prezzo": 6.5,
+        "ingredienti": [
+            "grano cotto",
+            "ricotta",
+            "zucchero",
+            "uova",
+            "burro",
+            "farina",
+            "aromi",
+            "scorza di limone"
+        ]
+    },
+    "Profiteroles": {
+        "prezzo": 6.5,
+        "ingredienti": [
+            "pasta choux",
+            "crema",
+            "cioccolato"
+        ]
+    },
+    "Fetta di Torta al Cioccolato": {
+        "prezzo": 5.0,
+        "ingredienti": [
+            "cioccolato",
+            "farina",
+            "zucchero",
+            "uova",
+            "burro"
+        ]
+    },
+    "Millefoglie": {
+        "prezzo": 6.5,
+        "ingredienti": [
+            "pasta sfoglia",
+            "crema pasticcera",
+            "zucchero a velo"
+        ]
+    },
+    "Mousse al Cioccolato": {
+        "prezzo": 6.5,
+        "ingredienti": [
+            "cioccolato fondente",
+            "panna",
+            "zucchero",
+            "uova"
+        ]
+    },
+    "Acqua Naturale": {
+        "prezzo": 1.0,
+        "ingredienti": [
+            "acqua"
+        ]
+    },
+    "Acqua Frizzante": {
+        "prezzo": 1.5,
+        "ingredienti": [
+            "acqua",
+            "anidride carbonica"
+        ]
+    },
+    "Coca-Cola": {
+        "prezzo": 2.5,
+        "ingredienti": [
+            "coca-cola"
+        ]
+    },
+    "Fanta": {
+        "prezzo": 2.5,
+        "ingredienti": [
+            "fanta"
+        ]
+    },
+    "Sprite": {
+        "prezzo": 2.5,
+        "ingredienti": [
+            "sprite"
+        ]
+    },
+    "Birra Peroni": {
+        "prezzo": 3.5,
+        "ingredienti": [
+            "birra peroni"
+        ]
+    },
+    "Birra Guinness": {
+        "prezzo": 3.5,
+        "ingredienti": [
+            "birra guinness"
+        ]
+    },
+    "Birra Artigianale": {
+        "prezzo": 5.0,
+        "ingredienti": [
+            "acqua",
+            "malto",
+            "luppolo",
+            "lievito"
+        ]
+    },
+    "Vino Rosso": {
+        "prezzo": 19.99,
+        "ingredienti": [
+            "uva rossa",
+            "acqua",
+            "zucchero"
+        ]
+    }
+}
