@@ -9,6 +9,7 @@ class Pagamento:
     def gui(self):
         self.w1 = Tk()                                                                          #Creazione Finestra
         self.w1.geometry('320x190')                                                             #Impostazione grandezza
+        self.w1.resizable(False, False)                                                         #Impedisce allargamento finestra
         self.w1.configure(bg='#ffffff')                                                         #Impostazione colore
         self.w1.title("Dalla Padella alla Brace: Pagamento")                                    #Impostazione titolo
         self.w1.iconbitmap("./Icona.ico")                                                       #Impostazione icona
@@ -34,18 +35,22 @@ class Pagamento:
         if Ordine.Metodo_Pagamento == "": #Controlla se è stato selezionato un metodo di pagamento
             messagebox.showerror("Errore", "Seleziona un metodo di pagamento.")#Avvisa
             return
+        
+        risposta = messagebox.askyesno("Metodo di pagamento", f"Metodo di pagamento selezionato: {Ordine.Metodo_Pagamento}\nConferma?")#Richiesta conferma
+        if risposta:#Se conferma
+            #Calcolo commisioni
+            commissioni = 0
+            if Ordine.Metodo_Pagamento == ("Visa" or "Mastercard"):#Se Visa o Mastercard
+                commissioni = 1.5
+            elif Ordine.Metodo_Pagamento == "Bancomat":#Se Bancomat
+                commissioni = 0.5
+            elif Ordine.Metodo_Pagamento == "Contanti":#Se Contanti
+                commissioni = 0.0
 
-        #Calcola commissioni
-        commissioni = 0
-        if Ordine.Metodo_Pagamento == ("Visa" or "Mastercard"):#Se Visa o Mastercard
-            commissioni = 1.5
-        elif Ordine.Metodo_Pagamento == "Bancomat":#Se Bancomat
-            commissioni = 0.5
-        elif Ordine.Metodo_Pagamento == "Contanti":#Se Contanti
-            commissioni = 0.0
+            Ordine.Totale += commissioni#Aggiunta commisioni a prezzo finale
 
-        Ordine.Totale += commissioni#Aggiunta commisioni a prezzo finale
-
-        # Mostra il messaggio di conferma
-        messagebox.showinfo("Ordine Completato", f"Ordine completato con successo a nome di {Ordine.Intestatario} con tavolo n°{Ordine.Numero_Tavolo} con {Ordine.Numero_Persone} persone, pagamento con {Ordine.Metodo_Pagamento}.\nPrezzo finale = €{Ordine.Totale:.2f}")
-        self.w1.destroy()#Chiudi ultima finestra
+            # Mostra il messaggio di conferma
+            messagebox.showinfo("Ordine Completato", f"Ordine completato con successo a nome di {Ordine.Intestatario} al tavolo n°{Ordine.Numero_Tavolo} con {Ordine.Numero_Persone} persone, pagamento con {Ordine.Metodo_Pagamento}.\nPrezzo finale = €{Ordine.Totale:.2f}")
+            self.w1.destroy()#Chiudi ultima finestra
+        else:
+            return

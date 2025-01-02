@@ -14,7 +14,8 @@ class Ordinazione():
     def gui(self):
         
         self.w1 = Tk()                                                          #Creazione Finestra
-        self.w1.geometry('350x450')                                             #Impostazione finestra
+        self.w1.geometry('350x450')                                             #Impostazione grandezza
+        self.w1.resizable(False, False)                                         #Impedisce allargamento finestra
         self.w1.configure(bg = '#ffffff')                                       #Impostazione colore
         self.w1.title("Dalla Padella alla Brace: Ordinazione")                  #Impostazione titolo
         self.w1.iconbitmap("./Icona.ico")                                       #Impostazione icona

@@ -13,6 +13,7 @@ class Prenotazione():
     def gui(self):
         self.w1 = Tk()                                                          #Creazione finestra
         self.w1.geometry('300x180')                                             #Impostazione grandezza
+        self.w1.resizable(False, False)                                         #Impedisce allargamento finestra
         self.w1.configure(bg='#ffffff')                                         #Impostazione colore
         self.w1.title("Dalla Padella alla Brace: Prenotazione")                 #Impostazione titolo
         self.w1.iconbitmap("./Icona.ico")                                       #Impostazione icona

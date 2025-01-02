@@ -16,6 +16,7 @@ class Inizio():
 
         self.w1 = Tk()                                                      #Creazione finestra
         self.w1.geometry('560x350')                                         #Impostazione grandezza
+        self.w1.resizable(False, False)                                     #Impedisce allargamento finestra
         self.w1.configure(bg='#ffffff')                                     #Impostazione colore
         self.w1.title("Dalla Padella alla Brace")                           #Impostazione titolo
         self.w1.iconbitmap("./Icona.ico")                                   #Impostazione icona
