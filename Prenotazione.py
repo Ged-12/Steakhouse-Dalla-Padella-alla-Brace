@@ -39,7 +39,7 @@ class Prenotazione():
         self.button1 = Button(self.w1, text="Avanti", font=tkinter.font.Font(family="Calibri", size=9), command=self.Verifica_Prenotazione)#Creazione pulsante per acquisizione dati prenotazione e passaggio a prossima finestra
         self.button1.place(x=100, y=150, width=90, height=22)#Posizionamento pulsante
 
-        self.image3 = Image.open("./i.png")
+        self.image3 = Image.open("./i.png")#Apertura immagine
         self.image3 = ImageTk.PhotoImage(self.image3.resize((30, 22)))#Impostazione grandezza immagine pulsante
         self.button2 = Button(self.w1, font=tkinter.font.Font(family="Calibri", size=9), image=self.image3, command=self.Verifica_Occupazione_Tavoli)#Creazione pulsante per ricevere informazioni sul occupazione dei tavoli con immagine i
         self.button2.place(x=110, y=100, width=30, height=22)#Posizionamento pulsante

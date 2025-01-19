@@ -21,7 +21,7 @@ class Ristorante:
             if(cont != self.Numero_Tavoli):
                 break
 
-    #Creazione Menu con struttura string:[float:list(string)]
+    #Creazione Menu con struttura string:dict[string:float or list of string]
     Menu= {
         "Bistecca Fiorentina": {
         "prezzo": 34.99,

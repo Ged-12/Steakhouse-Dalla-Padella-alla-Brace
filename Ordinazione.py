@@ -33,7 +33,7 @@ class Ordinazione():
 
         self.tab1 = Frame(self.notebook, width=350, height=375, bg = '#ffffff')#Creazione Frame della tab
         self.notebook.add(self.tab1, text = "Carne")#Aggiunta della tab alla base e titolo
-        self.Grafica_Piatti(self.tab1,0)#Richiamo metodo creazione elementi nella tab con inserimento della tab e inizio elementi menu associati
+        self.Grafica_Piatti(self.tab1,0)#Richiamo metodo creazione elementi nella tab
 
         self.tab2 = Frame(self.notebook, width=350, height=375, bg = '#ffffff')
         self.notebook.add(self.tab2, text = "Contorni")

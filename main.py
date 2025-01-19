@@ -68,21 +68,21 @@ class Inizio():
                 return
             else:
                 if content.startswith('{'):#Verifica se il contenuto inizia con '{'
-                    is_valid_json = False#Indicatore validità
+                    validita = False#Indicatore validità
                     try:
                         json.loads(content)#Prova a caricare il JSON
-                        is_valid_json = True
+                        validita = True
                     except:
-                        is_valid_json = False
+                        validita = False
 
-                    if is_valid_json:#Se il caricamento è avvenuto con successo
+                    if validita:#Se il caricamento è avvenuto con successo
                         menu = json.loads(content)#Carica il JSON
                         Ristorante.Menu = menu#Modifica menu ristorante
                         messagebox.showinfo("Successo", "File JSON importato con successo.")#Avvisa
                     else:
                         messagebox.showerror("Errore", "Errore caricamento JSON: formato non valido.")#Avvisa
                 else:
-                    messagebox.showerror("Errore", "Errore caricamento JSON: il contenuto non inizia con '{' o '['.")#Avvisa
+                    messagebox.showerror("Errore", "Errore caricamento JSON: il contenuto non inizia con '{'.")#Avvisa
         else:
             messagebox.showerror("Errore", "File non trovato.")  # Avvisa
 

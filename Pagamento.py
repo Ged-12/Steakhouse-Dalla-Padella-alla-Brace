@@ -40,7 +40,7 @@ class Pagamento:
         if risposta:#Se conferma
             #Calcolo commisioni
             commissioni = 0
-            if Ordine.Metodo_Pagamento == ("Visa" or "Mastercard"):#Se Visa o Mastercard
+            if (Ordine.Metodo_Pagamento == "Visa") or (Ordine.Metodo_Pagamento == "Mastercard"):#Se Visa o Mastercard
                 commissioni = 1.5
             elif Ordine.Metodo_Pagamento == "Bancomat":#Se Bancomat
                 commissioni = 0.5
